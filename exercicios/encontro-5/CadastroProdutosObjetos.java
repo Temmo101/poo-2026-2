@@ -15,7 +15,6 @@ public class CadastroProdutosObjetos {
             opcao = entrada.nextInt();
             switch (opcao) {
                 case 1:
-                    // TODO: ler dados e atualiz1ar quantidade com cadastrarProduto.
                     System.out.print("Digite o codigo do produto: ");
                     int codigo = entrada.nextInt();
                     System.out.print("Digite o preco do produto: ");
@@ -23,13 +22,11 @@ public class CadastroProdutosObjetos {
                     quantidade = cadastrarProduto(produtos, quantidade, codigo, preco);
                     break;
                 case 2:
-                    // TODO: consultar.
                     System.out.print("Digite o codigo do produto para consultar: ");
                     int codigoConsulta = entrada.nextInt();
                     consultarProduto(produtos, quantidade, codigoConsulta);
                     break;
                 case 3:
-                    // TODO: alterar preco.
                     System.out.print("Digite o codigo do produto para alterar preco:");
                     int codigoAlterar = entrada.nextInt();
                     System.out.print("Digite o novo preco do produto: ");
@@ -42,7 +39,6 @@ public class CadastroProdutosObjetos {
                     }
                     break;
                 case 4:
-                    // TODO: remover e atualizar quantidade.
                     System.out.print("Digite o codigo do produto para remover: ");
                     int codigoRemover = entrada.nextInt();
                     quantidade = removerProduto(produtos, quantidade, codigoRemover);
