@@ -13,17 +13,31 @@ Materiais destinados aos estudantes da disciplina de Programação Orientada a O
 | 5 | Projeto 1: classes e objetos | [Abrir](encontros/encontro-05/) |
 | 6 | Projeto 1: construtores e encapsulamento | [Abrir](encontros/encontro-06/) |
 | 7 | Projeto 2: relacionamentos e responsabilidades | [Abrir](encontros/encontro-07/) |
+| 8 | Projeto 2: coleções e CRUD com ArrayList | [Abrir](encontros/encontro-08/) |
+| 9 | Projeto 2: relacionamentos 1:1 e 1:N | [Abrir](encontros/encontro-09/) |
+| 10 | Projeto 2: validação, toString e comparação | [Abrir](encontros/encontro-10/) |
+| 11 | Projeto 3: herança e preparação do estacionamento | [Abrir](encontros/encontro-11/) |
+| 12 | Projeto 3: abstração e polimorfismo | [Abrir](encontros/encontro-12/) |
+| 13 | Projeto 3: interfaces e cobranças | [Abrir](encontros/encontro-13/) |
+| 14 | Projeto 3: exceções e estado válido | [Abrir](encontros/encontro-14/) |
+| 15 | Projeto 3: coleções, pacotes e Maven | [Abrir](encontros/encontro-15/) |
+| 16 | Projeto 3: integração e conclusão | [Abrir](encontros/encontro-16/) |
 
-Cada pasta contém a apresentação em Markdown, o material do aluno e os exemplos necessários para a prática. Os decks completos dos encontros 3 a 7 também estão disponíveis no Gamma: [Encontro 3](https://gamma.app/docs/op065whc053zb46), [Encontro 4](https://gamma.app/docs/i4qgseeq50ks4q6), [Encontro 5](https://gamma.app/docs/qx9gqdxt3pdhgva), [Encontro 6](https://gamma.app/docs/fpljkrz226ib3b7) e [Encontro 7](https://gamma.app/docs/37e05annea8c0lx).
+As pastas reúnem os materiais de acompanhamento de cada encontro. Os encontros 11 a 16 desenvolvem progressivamente o mesmo Projeto 3, um estacionamento: herança, abstração e polimorfismo, interfaces, exceções, coleções, organização com Maven e integração final.
+
+Nos encontros 11 a 16, cada pasta contém um projeto inicial compilável, base dos conhecimentos anteriores, tarefas localizadas por TODO, roteiro passo a passo e verificações de progresso. Comece pelo README da aula e execute iniciar.cmd e verificar.cmd no Windows, ou os scripts .sh em Linux/macOS. Complete os pontos novos durante a explicação e registre suas previsões, resultados e justificativas. As investigações permanecem sem respostas; guias e soluções finais do professor ficam separados. Os encontros 08 a 10 conservam seus materiais anteriores de orientação.
 
 ## Requisitos gerais
 
-- JDK LTS adotado pela turma;
+[Acesse os materiais por encontro](encontros/). Preserve as etapas anteriores no seu repositório de trabalho.
+
+- JDK adotado pela turma; nos encontros 11 a 16, siga a versão indicada no respectivo material;
 - Visual Studio Code ou outro editor;
 - terminal;
-- Git para registrar as versões locais.
+- Git para registrar as versões locais;
+- Maven nos encontros 15 e 16, conforme as orientações das atividades.
 
-Os exemplos foram planejados para funcionar sem conexão com a Internet depois de baixados.
+As atividades do estacionamento usam dados em memória. A primeira construção com Maven pode exigir Internet; construir sem rede depende de plugins e dependências previamente disponíveis no cache. Sem rede, registre as verificações possíveis e o envio pendente.
 
 ## O que não está neste repositório
 
