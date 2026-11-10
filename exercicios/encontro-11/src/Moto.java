@@ -4,13 +4,10 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Moto {
-
-    private final String placa;
-    private String modelo;
+public class Moto extends Veiculo{
 
     private static final double TARIFA_HORA = 6.0;
-    public Moto(String placa) { this(placa, "Não informado"); }
+    public Moto(String placa, String modelo) { super(placa, modelo); }
     public double getTarifaHora() { return TARIFA_HORA; }
-    @Override public String toString() { return "Moto | " + placa + " | " + modelo; }
+    @Override public String toString() { return "Moto | " + super.toString(); }
 }

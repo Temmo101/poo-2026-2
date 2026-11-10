@@ -1,0 +1,18 @@
+{
+    "java.project.sourcePaths": [
+        ".",
+        "encontros\\encontro-01",
+        "encontros\\encontro-02",
+        "encontros\\encontro-03",
+        "encontros\\encontro-04",
+        "encontros\\encontro-05",
+        "encontros\\encontro-06",
+        "encontros\\encontro-07",
+        "encontros\\encontro-08",
+        "encontros\\encontro-09",
+        "encontros\\encontro-10",
+        "encontros\\encontro-11",
+        "encontros\\encontro-12\\src"
+    ],
+    "java.project.referencedLibraries": []
+}
